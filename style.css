@@ -9,3 +9,29 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+     padding: 1rem 2rem;
+    background-color: white
+    
+} 
+    
+.menu {
+    list-style: none;
+    display:flex;
+    margin: 0 15px
+}
+
+li {
+    display:flex;
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
