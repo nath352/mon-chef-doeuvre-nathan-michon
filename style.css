@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-     padding: 1rem 2rem;
+    padding: 1rem 2rem;
     background-color: white
     
 } 
@@ -34,4 +34,30 @@ li {
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+section {
+    padding: 2rem 0;
+    border-top: 0.5cm solid;
+}
+
+input {
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 0.2cm solid;
+    margin-bottom: 1cm;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 0.2cm solid;
+    margin-bottom: 1cm;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    padding: 0.7rem 0;
+    width: 20%;
 }
