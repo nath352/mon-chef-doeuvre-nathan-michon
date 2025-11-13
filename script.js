@@ -4,3 +4,7 @@ titre.addEventListener('click', () => {
     console.log("J'ai cliqué sur le titre !");
     titre.textContent = "Titre cliqué !";
   });
+const themeButton = document.querySelector('#theme-toggle');
+themeButton.addEventListener('click', () => {
+document.body.classList.toggle('dark-mode');
+  });
